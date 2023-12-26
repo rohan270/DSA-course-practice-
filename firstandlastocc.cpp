@@ -41,7 +41,7 @@ int lastocc(int arr[],int n , int k){
 }
 
 int main (){
-    int arr[7] = {0,1,1,2,2,2,2};
+    int arr[7]={0,1,1,2,2,2,2}
     int n = 7;
     int k = 2;
     cout<<firstocc(arr,n,k);
